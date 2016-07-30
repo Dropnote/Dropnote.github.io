@@ -28,11 +28,7 @@ footer {
 	text-align: center;
 	font-size: 10px;
 	color: rgb(245, 242, 233);
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	width: 100%;
-  overflow: hidden;
 }
 
 a.social {
@@ -64,6 +60,13 @@ a.social:hover {
 }
 
 @media only screen {
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+  }
+
 	.screenshot {
 		text-align: center;
 	}
@@ -85,6 +88,13 @@ a.social:hover {
 }
 
 @media only screen and (min-width: 64.063em) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+  }
+
 	.screenshot {
 		text-align: right;
 	}
