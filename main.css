@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 footer {
@@ -36,7 +36,7 @@ footer {
 }
 
 a.social {
-	font-size: 30px;
+	font-size: 24px;
 }
 
 a.social:link, a.social:visited, a.social:active {
@@ -104,17 +104,16 @@ a.social:hover {
 }
 
 .appstore {
-  margin-top: 20px;
   height: 40px;
 }
 
 .header {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .romance {
-  margin-top: 80px;
-  padding: 20px 10px;
+  margin-top: 70px;
+  padding: 10px 40px;
   border-radius: 6px;
   text-align: center;
 	background: rgb(245, 242, 233);
