@@ -5,7 +5,9 @@
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600" rel="stylesheet">
-    <link rel="stylesheet" href="css/foundation.min.css" />
+		<link rel="stylesheet" href="css/foundation.min.css">
+		<link rel="stylesheet" href="css/foundation-icons.css" />
+		<link rel="stylesheet" href="css/tipped.css" />
     <link rel="stylesheet" href="main.css" />
 </head>
 <body class="background-image stretch">
@@ -20,11 +22,26 @@
 			<div class="romance">
 				<h1 class="header">Dropnote App</h1>
 				<p class="justify">Your personal coffee brewings diary.</p>
-				<p class="justify">Got questions? <br/>Write to the email</p>
+				<p class="justify">Got questions?</p>
+				<p class="justify">
+					<a class="social fi-social-twitter medium-right-margin" href="https://twitter.com/dropnote_app" target="_blank"></a>
+					<a class="social fi-mail medium-left-margin simple-tooltip" href="#" title="hello@dropnote.today"></a>
+				</p>
 				<p class="justify"><img class="appstore" src="img/appstore.png"/></p>
 			</div>
 		</div>
 	  <div class="large-2 columns"> &zwnj;</div>
 	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/what-input.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script src="js/tipped.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+  	Tipped.create('.fi-mail');
+	});
+</script>
 </body>
 </html>

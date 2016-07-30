@@ -12,6 +12,10 @@ p {
   font-size: 14px;
 }
 
+a.social {
+	font-size: 30px;
+}
+
 .background-image {
   background-image: url("img/dropnote_bg.jpg");
   background-repeat: no-repeat;
@@ -40,12 +44,16 @@ p {
 }
 
 .appstore {
-  margin-top: 40px;
+  margin-top: 20px;
   height: 40px;
 }
 
 .header {
   margin-bottom: 30px;
+}
+
+.inline {
+	display: inline;
 }
 
 .romance {
@@ -54,4 +62,12 @@ p {
   border-radius: 6px;
   text-align: center;
   background-color: #F5F2E9;
+}
+
+.medium-left-margin {
+	margin-left: 10px;
+}
+
+.medium-right-margin {
+	margin-right: 10px;
 }
